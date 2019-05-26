@@ -1,0 +1,40 @@
+.comentBox-wrapper {
+    display: inline-flex;
+    font-size: 15px;
+    size: absolute;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translate(65px,-50%);
+}
+
+.comentBox-input{
+    font-size: inherit;
+    background-color: #e9ebee;
+    border: 1px solid #d4d6d8;
+    border-radius: 30px 0 0 30px;
+    padding: 8px 10px;
+    outline: 0;
+}
+
+
+.comentBox-button:hover,
+.comentBox-button:focus{
+    background-color: #c4c4c4;
+}
+
+.comentBox-button{
+    font-size: inherit;
+    border: 1px solid #d4d6d8;
+    border-radius: 0 30px 30px 0;
+    background-color: #e9ebee;
+    border-left: 0;
+    padding: 0 5px;
+    color: #36548b;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    right: 10px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang en>
+<head>
+    <title>Facetruque</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/33/33702.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/estiloSite.css">
+    <link rel="stylesheet" href="CSS/caixaBusca.css">
+    <link rel="stylesheet" href="CSS/comentBox.css">
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">         -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+
+    
+</head>
+<body>
+
+    <!--Cabeçalho-->
+    <div class="container">
+            <img id="logo" src="Imagens/Popular_Social_Media-01-512 copy.png">
+        <div class="search-box-wrapper">
+            <input type="text" placeholder="Buscar..." class="search-box-input browser-default">
+            <button class="search-box-button"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div>
+            <div class="fotoPerfil" style="background-image: url(https://vignette.wikia.nocookie.net/friends/images/c/cc/Square_Chandler.jpg/revision/latest/scale-to-width-down/200?cb=20111216200026)"></div>
+            <h7 class="nomePostador">Chandler Bing</h7>
+         </div>    
+    </div>
+    <!--Fim do cabeçalho-->
+
+    <!--Primeiro Post-->
+    <div class="container2">
+
+        <div style="height: 100px; position: relative">
+            <div class="fotoPostador" style="background-image: url(https://vignette.wikia.nocookie.net/friends/images/c/cc/Square_Chandler.jpg/revision/latest/scale-to-width-down/200?cb=20111216200026)"></div>
+            <h7 class="nomePostador">Chandler Bing</h7>
+            <h7 class="horaPost">1 h</h7>
+            <h7 class="comentPostador">Te amo mulher</h7>
+        </div>
+
+
+        <img src="https://i.pinimg.com/originals/c4/6a/6c/c46a6c516f10203a00a52086c7d76a46.jpg" style="width: 95% ; height: auto ; position: relative ; left: 2.5%"> 
+
+
+                <table id="table1" style="width: 100%"> 
+                        <tbody>
+
+                            <tr>
+                                <td>
+                                        <button class="botaoLike"><i class="fas fa-thumbs-up"></i></button>
+                                        <h7 class="likeCount">1</h7>
+                                        <div style="height: 1px; width: 100%; background-color: #e9ebee"></div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="comentBox">
+                                    <img class="fotoComentador" src="Imagens/rachel.jpeg">
+                                    <h7 class="nomeComentador">Rachel Green</h7>
+                                    <h7 class="comentComentador">Lindos!</h7>
+                                </td>
+                            </tr>
+        
+                            <tr>
+                                <td class="comentBox">
+                                        <img class="fotoComentador" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Matt_LeBlanc_as_Joey_Tribbiani.jpg/220px-Matt_LeBlanc_as_Joey_Tribbiani.jpg">
+                                        <h7 class="nomeComentador">Joey Tribbiani</h7>
+                                        <h7 class="comentComentador">tá me traindo, chandler bing?</h7>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                    <td class="comentBox">
+                                            <img class="fotoComentador" src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-friends-lisa-kudrow.jpg">
+                                            <h7 class="nomeComentador">Phoebe Buffay</h7>
+                                            <h7 class="comentComentador">quem é essa do teu lado kkkkkk</h7>
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                        <td class="comentBox">
+                                                <img class="fotoComentador" src="Imagens/janice.jpg">
+                                                <h7 class="nomeComentador">Janice</h7>
+                                                <h7 class="comentComentador">OH&#160;&#160;&#160;MY&#160;&#160;&#160;GOD</h7>
+                                        </td>
+                             </tr>
+
+                        </tbody>
+                </table>
+
+        <div style="height: 1px; width: 100%; background-color: #e9ebee"></div>
+
+
+
+        <div style="position: relative; padding: 5px 0 5px">
+            <img class="fotoComentInclude" src="https://vignette.wikia.nocookie.net/friends/images/c/cc/Square_Chandler.jpg/revision/latest/scale-to-width-down/200?cb=20111216200026">
+            <div class="comentBox-wrapper">
+                    <input type="text" name="comentario" id="comentario" placeholder="Inserir comentário..." class="comentBox-input"></input>
+                    <button id="botao" class="comentBox-button"><i class="far fa-arrow-alt-circle-right" onClick="addRow()" ></i></button>
+            </div>
+
+        </div>
+    </div>
+    <!--Fim do primeiro post-->
+
+
+
+
+    <!--Segundo Post-->
+    <div class="container2" style="margin-bottom: 20px">
+            <div style="height: 100px; position: relative">
+                <div class="fotoPostador" style="background-image: url(https://pixel.nymag.com/imgs/fashion/daily/2018/10/24/24-ross-friends.w700.h700.jpg)"></div>
+                <h7 class="nomePostador">Ross Geller</h7>
+                <h7 class="horaPost">3 h</h7>
+                <h7 class="comentPostador">UNAGI!</h7>
+            </div>
+                    <img src="https://images.news18.com/ibnlive/uploads/2014/09/ross-sep22.jpg" style="width: 95% ; height: auto ; position: relative ; left: 2.5%"> 
+                    <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                            
+                                         <button class="botaoLike2"><i class="fas fa-thumbs-up"></i></button>
+                                         <h7 class="likeCount2">1</h7>
+                                         <div style="height: 1px; width: 100%; background-color: #e9ebee"></div>
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td class="comentBox">
+                                        <img class="fotoComentador" src="Imagens/rachel.jpeg">
+                                        <h7 class="nomeComentador">Rachel Green</h7>
+                                        <h7 class="comentComentador">cara, você tá passando vergonha</h7>
+                                    </td>
+                                </tr>
+                            </tbody>
+                    </table>
+
+        <div style="height: 1px; width: 100%; background-color: #e9ebee"></div>
+
+
+         <div style="position: relative; padding: 5px 0 5px">
+            <img class="fotoComentInclude" src="https://vignette.wikia.nocookie.net/friends/images/c/cc/Square_Chandler.jpg/revision/latest/scale-to-width-down/200?cb=20111216200026">
+            <div class="comentBox-wrapper">
+                    <input type="text" placeholder="Inserir comentário..." class="comentBox-input browser-default">
+                    <button class="comentBox-button"><i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+                
+         </div>
+    </div>
+    <!--Fim do segundo post-->
+
+
+
+
+
+
+    <div style="height: 20px">
+        <h9>&nbsp</h9>
+    </div>
+
+    <!--SCRIPT-->
+    <script src="JS/like.js" ></script>
+    <script src="JS/coment.js" ></script>
+
+</body>
+</html>
