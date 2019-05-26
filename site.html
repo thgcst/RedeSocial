@@ -25,8 +25,9 @@
 
         <div>
             <div class="fotoPerfil" style="background-image: url(https://vignette.wikia.nocookie.net/friends/images/c/cc/Square_Chandler.jpg/revision/latest/scale-to-width-down/200?cb=20111216200026)"></div>
-            <h7 class="nomePostador">Chandler Bing</h7>
-         </div>    
+         </div>
+
+        <div><h7 class="nomePerfil">Chandler Bing</h7></div>
     </div>
     <!--Fim do cabeçalho-->
 
@@ -118,7 +119,7 @@
                 <h7 class="comentPostador">UNAGI!</h7>
             </div>
                     <img src="https://images.news18.com/ibnlive/uploads/2014/09/ross-sep22.jpg" style="width: 95% ; height: auto ; position: relative ; left: 2.5%"> 
-                    <table>
+                    <table id="table2" style="width: 100%">
                             <tbody>
                                 <tr>
                                     <td>
@@ -142,14 +143,14 @@
         <div style="height: 1px; width: 100%; background-color: #e9ebee"></div>
 
 
-         <div style="position: relative; padding: 5px 0 5px">
-            <img class="fotoComentInclude" src="https://vignette.wikia.nocookie.net/friends/images/c/cc/Square_Chandler.jpg/revision/latest/scale-to-width-down/200?cb=20111216200026">
-            <div class="comentBox-wrapper">
-                    <input type="text" placeholder="Inserir comentário..." class="comentBox-input browser-default">
-                    <button class="comentBox-button"><i class="far fa-arrow-alt-circle-right"></i></button>
-            </div>
-                
-         </div>
+        <div style="position: relative; padding: 5px 0 5px">
+                <img class="fotoComentInclude" src="https://vignette.wikia.nocookie.net/friends/images/c/cc/Square_Chandler.jpg/revision/latest/scale-to-width-down/200?cb=20111216200026">
+                <div class="comentBox-wrapper">
+                        <input type="text" name="comentario2" id="comentario2" placeholder="Inserir comentário..." class="comentBox-input"></input>
+                        <button id="botao2" class="comentBox-button"><i class="far fa-arrow-alt-circle-right" onClick="addRow2()" ></i></button>
+                </div>
+    
+        </div>
     </div>
     <!--Fim do segundo post-->
 

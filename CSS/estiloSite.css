@@ -16,6 +16,23 @@ body{
     transform: translate(8px,25%);
 }
 
+.nomePerfil{
+    font-family: 'Lucida Grande';
+    font-weight: bold;
+    color: #e9ebee;
+    font-size: 90%;
+    position: absolute;
+    top:50%;
+    right: calc(1.5% + 35px);
+    transform: translate(0,-50%);
+    cursor: pointer;
+}
+
+.nomePerfil:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 .fotoPerfil{
     position: absolute ;
     top: 50% ;
@@ -26,6 +43,7 @@ body{
     width: 30px;
     height: 30px;
     background-size: cover;
+    cursor: pointer;
 }
 
 .fotoPerfil:hover{
@@ -35,12 +53,12 @@ body{
     transform: translate(2px,-50%);
 
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     background-size: cover;
 
     border: 1px solid #b4b4b4;
-    padding: 5px;
+    padding: 2px;
 }
 
 
@@ -82,6 +100,7 @@ body{
     vertical-align: middle;
     padding-top: 3px;
     padding-bottom: 2px;
+    max-width: 300px;
 }
 
 .nomeComentador{
@@ -92,6 +111,8 @@ body{
     position: relative;
     left: 20px;
     cursor: pointer;
+    word-break: break-all;
+    max-width: 300px;
 }
 
 .nomeComentador:hover{
